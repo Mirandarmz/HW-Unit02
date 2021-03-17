@@ -56,7 +56,8 @@ header ul {
 header a {
     color: var(--white);
     text-decoration: none;
-    font-size: 30px;
+    font-family: Roboto;
+    font-size: 20px;
     padding: 10px;
 }
 
@@ -79,7 +80,7 @@ header a {
 
 /*Styling and positioning of the title and text in the "about me" section*/
 #about-me-div{
-    font-family: roboto;
+    font-family: Roboto;
     display:flex;
     align-items: flex-end;
     flex-basis: 60%;
@@ -100,7 +101,7 @@ header a {
 
 /*Styling of the h2 used inside the content class*/
 .content h2{
-    font-family: cherolina;
+    font-family: Cherolina;
     color: var(--dark);
     font-size: 60px;
     margin: 0 100px 0 100px;
@@ -127,7 +128,7 @@ header a {
 /*Styling of the li inside the content class*/
 .content li {
     display: inline;
-    font-family: roboto;
+    font-family: Roboto;
     margin: 70px 50px 50px 50px;
     float: right;
 }
@@ -185,7 +186,7 @@ header a {
     color: var(--white);
     background-color: rgba(144, 50, 61, .90);
     position: absolute;
-    font-family: roboto;
+    font-family: Roboto;
     font-size: 30px;
     padding: 10px;
 }
