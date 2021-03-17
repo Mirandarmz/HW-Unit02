@@ -148,13 +148,13 @@ header a {
 /*Styling of the unique image (firstt image) of the work section*/
 #first-web{
     flex-basis: 100%;
-    min-height: 400px;
+    min-height: 600px;
     width: 100%;
 }
 
 /*Styling of the every image inside the work section class*/
 .work-img{
-    padding: 10px;
+    padding: 5px;
     display: flex;
     opacity: 100%;
     align-items: flex-end;
@@ -187,8 +187,15 @@ header a {
     position: absolute;
     font-family: roboto;
     font-size: 30px;
-    PADDING: 10px;
+    padding: 10px;
 }
+
+/*Positioning of elements in the contact me section*/
+#contact-me div{
+    flex-direction: column;
+    align-self: flex-start;
+}
+
 
 /*Styling and positioning of the footer*/
 footer {

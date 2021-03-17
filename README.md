@@ -20,5 +20,7 @@ Some of the elements that needed to be showcased include the following:
 
 ## The conclusion
 ```
-It was not a simple task, I found it very hard and had trouble with multiple elements. Howeveer, I do think i made a relatively good job and I hope it meets expectations.
+It was not a simple task, 
+I found it very hard and had trouble with multiple elements. 
+Howeveer, I do think i made a relatively good job and I hope it meets expectations.
 ```
