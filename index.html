@@ -7,10 +7,12 @@
     <title>Portfolio</title>
 </head>
 
+<!--First big container is the body tag-->
 <body>
+    <!--Header has its own container with other elements inside of it-->
     <header>
-        <h1>Miranda Ramírez</span></h1>
-        <section>
+
+            <h1>Miranda Ramírez</span></h1>
             <ul>
                 <li>
                     <a href="#about-me">About me</a>
@@ -22,13 +24,16 @@
                     <a href="#contact-me">Contact me</a>
                 </li>
             </ul>
-        </section>
+
     </header>
     
+    <!--Image below the header included in asection and sources in the css-->
     <section class="header-img"></section>
 
+    <!--Generated the larger content container wrapping all of the actual content of the page-->
     <main class="content">
-
+        <!--Every section and div was carefuly thought of for flexboxes and positioning to work correctly-->
+        <!--First section of the content is the about me, with the text and header wrapped in an individual div-->
         <section id="about-me" class="sections">
             <img class ="about-me-img" src="./Assets/Images/aboutMe.JPG" />
             <div id="about-me-div">
@@ -39,6 +44,7 @@
             </div>
         </section>
 
+        <!--Second section of the content is the work section, each image and text wrapped in an individual container-->
         <section id="work" class="sections">
             <h2>Work</h2>
             <div class="work-container">
@@ -65,6 +71,7 @@
             </div>
         </section>
 
+        <!--Third section of the context is the contact me section, all elements wrapped in it-->
         <section id="contact-me" class="sections">
             <h2>Contact Me</h2>
             <ul>
@@ -85,6 +92,7 @@
         
     </main>
 
+    <!--Finally, the las element of the page is the footer, wrapped in its own "section" called footer-->
     <footer>
         <h2>Made with ❤️️</h2>
     </footer>
