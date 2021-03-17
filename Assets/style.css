@@ -144,11 +144,11 @@ header section a {
     margin-top: 0;
 } 
 
-.workImg:hover{
+.work-img:hover{
     opacity: 70%;
 }
 
-#firstWeb:hover{
+#first-web:hover{
     opacity: 70%;
 }
 
@@ -160,7 +160,6 @@ header section a {
 
 .image-container{
     position: relative;
-    opacity: 100%;
 }
 
 .imageText{
