@@ -158,11 +158,20 @@ header section a {
     flex-wrap: wrap;
 }
 
+.image-container{
+    position: relative;
+    opacity: 100%;
+}
+
 .imageText{
-    bottom: 8px;
+    bottom: 60px;
     left: 16px;
-    color: black;
-    background-color: #ffffff;
+    color: var(--white);
+    background-color: rgba(144, 50, 61, .90);
+    position: absolute;
+    font-family: roboto;
+    font-size: 30px;
+    PADDING: 10px;
 }
 
 footer {
