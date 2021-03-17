@@ -62,27 +62,7 @@ header section a {
     text-decoration: none;
 }
 
-p {
-    font-size: 20px;
-}
-
-/*
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}*/
-
 .sections{
-    /*
-    margin: 50px 50px 50px 50px;
-    width: 90%;
-    height: 500px;
-    */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -90,16 +70,17 @@ p {
 
 #about-me-div{
     font-family: roboto;
-    /*
-    margin-top: 50px;
-    text-align: justify;
-    margin-left: 110px;
-    width: 40%;
-    */
     display:flex;
     align-items: flex-end;
     flex-basis: 60%;
     flex-direction: column;
+    padding: 30px;
+}
+
+#about-me-div p{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 25px;
 }
 
 .about-me-img{
@@ -113,13 +94,6 @@ p {
     margin: 0 100px 0 100px;
     border-bottom: 2px solid var(--white);
 }
-
-/*
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}*/
 
 .content img{
     width: 550px;
@@ -163,16 +137,11 @@ p {
 
 
 .work-img{
-    /*
-    display: inline-block;
-    column-count: 2;
-    margin-bottom: 0;
-    margin-top: 0;
-    */
     padding: 10px;
     display: flex;
     opacity: 100%;
     align-items: flex-end;
+    margin-top: 0;
 } 
 
 .workImg:hover{
@@ -190,7 +159,6 @@ p {
 }
 
 .imageText{
-    position: absolute;
     bottom: 8px;
     left: 16px;
     color: black;
