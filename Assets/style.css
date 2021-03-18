@@ -97,6 +97,7 @@ header a {
 /*Setting initial size of the image*/
 .about-me-img{
     flex-basis: 20%;
+    padding: 20px;
 }
 
 /*Styling of the h2 used inside the content class*/
@@ -113,7 +114,7 @@ header a {
     width: 550px;
     height: 360px;
     background-size: cover;
-    margin: 50px 0 50px 0;
+    margin: 10px 0 10px 0;
 }
 
 /*Styling of the ul inside the content class*/
@@ -181,7 +182,7 @@ header a {
 
 /*Positioning and styling of the text positioned over the images in the work section*/
 .imageText{
-    bottom: 60px;
+    bottom: 15px;
     left: 16px;
     color: var(--white);
     background-color: rgba(144, 50, 61, .90);
@@ -195,6 +196,8 @@ header a {
 #contact-me div{
     flex-direction: column;
     align-self: flex-start;
+    padding: 10px;
+    align-content: flex-start;
 }
 
 
