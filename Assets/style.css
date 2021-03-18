@@ -121,17 +121,16 @@ header a {
 .content ul {
     list-style-type: none;
     background-color: rgba(255,255,255,.70);
-    height: 30%;
+    height: 50%;
     margin-top: 90px;
     overflow: auto;
 }
 
 /*Styling of the li inside the content class*/
 .content li {
-    display: inline;
     font-family: Roboto;
     margin: 70px 50px 50px 50px;
-    float: right;
+    display: inline-block;
 }
 
 /*Styling of the a inside the content class*/
@@ -194,10 +193,9 @@ header a {
 
 /*Positioning of elements in the contact me section*/
 #contact-me div{
-    flex-direction: column;
+    flex-direction: row;
     align-self: flex-start;
     padding: 10px;
-    align-content: flex-start;
 }
 
 
