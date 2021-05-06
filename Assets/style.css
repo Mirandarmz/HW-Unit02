@@ -150,7 +150,8 @@ header a {
 #first-web{
     flex-basis: 100%;
     min-height: 600px;
-    width: 100%;
+    width: 70%;
+    margin: auto;
 }
 
 /*Styling of the every image inside the work section class*/
@@ -190,6 +191,18 @@ header a {
     font-size: 30px;
     padding: 10px;
 }
+
+.firstImageText{
+    bottom: 15px;
+    left: 16%;
+    color: var(--white);
+    background-color: rgba(144, 50, 61, .90);
+    position: absolute;
+    font-family: Roboto;
+    font-size: 30px;
+    padding: 10px;
+}
+
 
 /*Positioning of elements in the contact me section*/
 #contact-me div{
