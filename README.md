@@ -19,4 +19,4 @@ Some of the elements that needed to be showcased include the following:
 + Conact me section with working links 
 
 ## Deployed application
-* 
+* https://mirandarmz.github.io/Portfolio/
