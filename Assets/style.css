@@ -193,7 +193,7 @@ header a {
 }
 
 .firstImageText{
-    bottom: 15px;
+    bottom: 5px;
     left: 16%;
     color: var(--white);
     background-color: rgba(144, 50, 61, .90);

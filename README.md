@@ -1,8 +1,8 @@
-# 02 Advanced CSS: Portfolio
+# Portfolio
 
 ## The task
 
-For this week's task, a webpage portfolio was made including 3 main sections:
+Webpage portfolio to introduce my main work. It includes 3 main sections:
 * About me
 * My work
 * Contact me
@@ -18,9 +18,5 @@ Some of the elements that needed to be showcased include the following:
 + Footer and headeer 
 + Conact me section with working links 
 
-## The conclusion
-```
-It was not a simple task, 
-I found it very hard and had trouble with multiple elements. 
-Howeveer, I do think i made a relatively good job and I hope it meets expectations.
-```
+## Deployed application
+* 
