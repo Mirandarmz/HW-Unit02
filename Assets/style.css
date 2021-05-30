@@ -203,6 +203,29 @@ header a {
     padding: 10px;
 }
 
+.firstGithubText{
+    bottom: 5px;
+    left: 70%;
+    color: var(--dark);
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    font-family: Roboto;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.githubText{
+    bottom: 15px;
+    left: 65%;
+    color: var(--dark);
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    font-family: Roboto;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
 
 /*Positioning of elements in the contact me section*/
 #contact-me div{
